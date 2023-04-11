@@ -1,11 +1,11 @@
-let login = 12
-let pw = 12
-if(login&&pw){
-    console.log('Rigth!');
-}else{
-    console.log('You dont know "Ecmascript"');
-}
-// // =====================================================================================================================
+// let login = 12
+// let pw = 12
+// if(login&&pw){
+//     console.log('Rigth!');
+// }else{
+//     console.log('You dont know "Ecmascript"');
+// }
+//=========================================================================================================================
 // ========================================================================================================================
 //                               2)Misol
 // let son = 0
@@ -39,3 +39,10 @@ if(login&&pw){
 //     console.log('');
 // }
 // login=='eployee'?console.log('Hello'):login=='director'?console.log('Greetings'):login==""?console.log('no login'):console.log("");//javobi
+// console.log(0 || 1);
+// console.log(0 ?? 1);
+// let i = 0
+// for (i; i <= 10; i++) {
+//     if (!(i % 3 === 0))  
+//     console.log(i)
+// }
