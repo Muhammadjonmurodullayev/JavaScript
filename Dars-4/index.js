@@ -1,33 +1,21 @@
-// let res=a.toString()
-// for(i of res){
-//     // let str=""
-//     switch(i){
-//         case 1 : console.log("bir");
-//         break;
-//         default:console.log("Bir");
-//     }
-//     switch(i){
-//         case 2 :console.log("ikki");
-//         break;
-//         default:console.log("Ikki");
-//     }
-//     switch(i){
-//         case 3 :console.log("uch");
-//         break;
-//         default:console.log("Uch");
-//     }
-//     switch(i){
-//         case 4 :console.log("to'rt");
-//         break;
-//         default:console.log("To'rt");
-//     }
-//     switch(i){
-//         case 5 :console.log("Besh");
-//         break;
-//         default:console.log("Besh");
-//     }
-//     // console.log(str);
+// let a = 1, b = 2
+// if (a + b < 4) {
+//     console.log('Below');
+// } else {
+//     console.log('Over');
 // }
+// a+b<4?console.log('Below'):console.log('Over');//javobi
+// let son = 0
+// if(son==0){
+//     console.log(0);
+// }
+// else if  (son>1){
+// console.log(1);
+// }else{
+// console.log(-1);
+// }
+// login = "director"
+// login=='eployee'?console.log('Hello'):login=='director'?console.log('Greetings'):login==""?console.log('no login'):console.log("");
 // console.log(res);
 // let a = 12345
 // ==============================================================================================================================================
@@ -141,10 +129,60 @@
 // }
 
 // console.log(a, b, c);
-let num = 122
-let str = num.toString()
-let res = 0
-for (i = 0; i < str.length; i++) {
-    res += +str[i]
-}
-console.log(res);
+// let num = 122123456789
+// let str = num.toString()
+// let res = 0
+// for (i = 0; i < str.length; i++) {  
+//     res += +str[i]
+// }
+// console.log(res);
+//  for (let i=0; i<=10;i++){
+//     if(i%2==0){
+//      continue   
+//     }
+//     else{
+// console.log(i);
+//     }
+//  }
+// for (let i = 2; i <= 100; i++) {
+//     let tup = true;
+//     for (let j = 2; j < i; j++) {
+//       if (i % j === 0) {
+//         tup = false
+//         break;
+//       }
+//     }
+//     if (tup) {
+//       console.log(i);
+//     }
+//   }
+
+// let num =729
+// if ((num % (3 || 5 || 7) == 0)) {
+//     console.log("Tub son emas ");
+// } else {
+//     console.log("Tub son ");
+// }
+// let num = 222333
+// if (num > 9007199254740992) {
+//     console.log("Son ortib ketdi");
+// } else {
+//     let str = num.toString()
+//     let res = 0
+//     let nul = 0
+//     for (i = 0; i < str.length; i++) {
+//         +str[i]
+//         if (+str[i] % 2) {
+//             res += +str[i]
+//         } else {
+//             nul += +str[i]
+//         }
+
+//     }
+//     let res1 = `${nul}  juft sonlar yig'indisi ${res}  toq sonlar yig'indisi son`
+//     console.log(res1);
+// }
+
+
+
+
